@@ -23,4 +23,19 @@ class TaskRepository(private val taskDao: TaskDao) {
     fun searchTasks(query: String): LiveData<List<Task>> {
         return taskDao.searchTaskList(query) // Query the DAO for matching tasks
     }
+
+    // Sorting tasks by priority
+    fun sortTasksByPriority(): LiveData<List<Task>> {
+        return taskDao.getTasksSortedByPriority() // Ensure this DAO function is implemented
+    }
+
+    // Sorting tasks by deadline
+    fun sortTasksByDeadline(): LiveData<List<Task>> {
+        return taskDao.getTasksSortedByDeadline() // Ensure this DAO function is implemented
+    }
+
+    // Filtering tasks by priority
+    fun filterTasksByPriority(priority: String): LiveData<List<Task>> {
+        return taskDao.getTasksFilteredByPriority(priority) // Ensure this DAO function is implemented
+    }
 }

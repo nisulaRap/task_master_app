@@ -12,4 +12,11 @@
     <string name="txt_status">Status</string>
     <string name="txt_date">Date</string>
     <string name="txt_time">Time</string>
+
+    <string-array name="filter_priority_options">
+        <item>All</item>
+        <item>High Priority</item>
+        <item>Medium Priority</item>
+        <item>Low Priority</item>
+    </string-array>
 </resources>

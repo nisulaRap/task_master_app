@@ -35,4 +35,19 @@ class TaskViewModel(application: Application): AndroidViewModel(application) {
     fun searchTask(query: String): LiveData<List<Task>> {
         return repository.searchTasks(query) // Delegate the search operation to the repository
     }
+
+    // Function to sort tasks by priority
+    fun sortTasksByPriority(): LiveData<List<Task>> {
+        return repository.sortTasksByPriority() // This should call the repository method
+    }
+
+    // Function to sort tasks by deadline
+    fun sortTasksByDeadline(): LiveData<List<Task>> {
+        return repository.sortTasksByDeadline() // This should call the repository method
+    }
+
+    // Add filtering function based on task priority (high, medium, low)
+    fun filterTasksByPriority(priority: String): LiveData<List<Task>> {
+        return repository.filterTasksByPriority(priority) // This should call the repository method
+    }
 }
