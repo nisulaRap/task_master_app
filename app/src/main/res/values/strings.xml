@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task Master App</string>
+    <string name="task_master">Task Master</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_deadline_date">Select Deadline Date</string>
+    <string name="hint_deadline_time">Select Deadline Time</string>
+    <string name="txt_reminder">Set Reminder</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_priority">Priority</string>
+    <string name="txt_status">Status</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_time">Time</string>
+</resources>
