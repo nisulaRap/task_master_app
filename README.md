@@ -1,4 +1,4 @@
-# Task Management App
+# Task Master App
 
 ## Overview
 Designed to help users efficiently manage their daily tasks and stay organized.
